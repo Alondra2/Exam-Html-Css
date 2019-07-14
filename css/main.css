@@ -1,0 +1,320 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\000033}}
+body {
+  margin: 0;
+  background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\000036}}
+.top-nav {
+  height: 101px;
+  padding: 40px 54px 0 108px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\000039}}
+  .top-nav_menu {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000311}}
+    .top-nav_menu a {
+      text-decoration: none;
+      font-family: "Montserrat", sans-serif;
+      color: #171717;
+      font-size: 12px;
+      line-height: 23px;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000318}}
+  .top-nav_short-menu {
+    width: 103px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000320}}
+    .top-nav_short-menu a {
+      padding-right: 15px;
+      padding-left: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000323}}
+.btn-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36px;
+  height: 37px;
+  border: 1px solid #171717;
+  background: rgba(255, 245, 215, 0);
+  border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000333}}
+  .btn-circle img {
+    width: 12px;
+    height: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000336}}
+  .btn-circle:hover {
+    background: #171717; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000338}}
+  .btn-circle:hover img {
+    -webkit-filter: invert(100%);
+            filter: invert(100%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000340}}
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 114px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #171717;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 9px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000356}}
+.logo a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000363}}
+  .logo a h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 0.6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000369}}
+  .logo a p {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.54px;
+    letter-spacing: 0.77px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000376}}
+.line {
+  height: 6px;
+  background-color: #f3ebdc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000379}}
+.main-part {
+  height: 998px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000384}}
+  .main-part_social-media {
+    height: 998px;
+    width: 65px;
+    background-color: #ededed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000393}}
+    .main-part_social-media a {
+      margin-bottom: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\0000395}}
+    .main-part_social-media h3 {
+      margin: 0;
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+      height: 71px;
+      color: #171717;
+      font-family: "Montserrat";
+      font-size: 10px;
+      line-height: 70px;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003104}}
+  .main-part_slider {
+    width: calc(100% - 65px);
+    background-image: url("../img/mainImgForMainSlider.png");
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003113}}
+    .main-part_slider_component h1 {
+      margin: 0 205px 0 0;
+      width: 765px;
+      height: 192px;
+      color: #171717;
+      font-family: "Montserrat", sans-serif;
+      font-size: 117px;
+      line-height: 107.76px;
+      text-transform: uppercase;
+      letter-spacing: 2.6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003123}}
+    .main-part_slider_component h3 {
+      margin: 41px 816px 37px 0;
+      width: 152px;
+      height: 13px;
+      color: #171717;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003131}}
+    .main-part_slider_component_steck-btn {
+      width: 150px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003136}}
+    .main-part_slider_component_steck-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003140}}
+      .main-part_slider_component_steck-block article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003143}}
+        .main-part_slider_component_steck-block article p {
+          margin-top: 50px;
+          width: 292px;
+          height: 93px;
+          color: #535353;
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003150}}
+      .main-part_slider_component_steck-block_dicount {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003153}}
+        .main-part_slider_component_steck-block_dicount .dicount-counter {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-flow: column nowrap;
+                  flex-flow: column nowrap;
+          width: 440px;
+          background-image: url("../img/bg-dicount.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003158}}
+          .main-part_slider_component_steck-block_dicount .dicount-counter h2 {
+            margin: 54px 0 0 38px;
+            width: 334px;
+            height: 74px;
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-size: 38px;
+            line-height: 46.21px;
+            text-transform: uppercase;
+            letter-spacing: 1.1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003168}}
+          .main-part_slider_component_steck-block_dicount .dicount-counter h3 {
+            margin: 26px 0 0 41px;
+            width: 213px;
+            height: 21px;
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 21px;
+            font-weight: 200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003176}}
+          .main-part_slider_component_steck-block_dicount .dicount-counter_dicount-line {
+            width: 315px;
+            height: 45px;
+            margin: 31px 0 0 48px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003183}}
+            .main-part_slider_component_steck-block_dicount .dicount-counter_dicount-line h3 {
+              margin: 0;
+              width: 53px;
+              height: 22px;
+              text-decoration: line-through; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003188}}
+            .main-part_slider_component_steck-block_dicount .dicount-counter_dicount-line h2 {
+              margin: 0 0 0 13px;
+              width: 70px;
+              height: 39px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/BackUP\/It-step\/Homeworks\/Git\/Exam-Html-Css\/Exam-Html-Css\/sass\/main\.sass}line{font-family:\00003192}}
+            .main-part_slider_component_steck-block_dicount .dicount-counter_dicount-line .btn {
+              margin: auto 0 0 49px;
+              background-color: #f3ebdc;
+              color: #121212; }
+
+/*# sourceMappingURL=main.css.map */
